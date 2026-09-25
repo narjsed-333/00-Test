@@ -58,7 +58,8 @@ public class HelloWorld {
            
            */
              
-          exercice 3 (TP02)
+          //exercice 3 (TP02)
+          
            Scanner sc = new Scanner(System.in);
            int opt;
           
