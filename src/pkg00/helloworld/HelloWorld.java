@@ -42,8 +42,8 @@ public class HelloWorld {
         System.out.print("x:" +x + "y:" +y );
         
        
-    */
-         
+    // exerice 5
+        
     Scanner sc = new Scanner(System.in);
 
           System.out.print("a:");
@@ -55,6 +55,30 @@ public class HelloWorld {
           float resultat=(a+b)*2;
                   
            System.out.print("Resultat" + resultat);
+           
+           */
+             
+          exercice 3 (TP02)
+           Scanner sc = new Scanner(System.in);
+           int opt;
+          
+          
+          do{
+          System.out.print(" Option :");
+          opt = sc.nextInt();
+          
+       
+          if(opt==1){
+              System.out.print("Bonjour");
+        }
+        
+          else if(opt==2) {
+          System.out.print("Au revoir");
+          }
+          
+          } while(opt!=0);
+          
+                   
         
     }
     
