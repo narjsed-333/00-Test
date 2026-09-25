@@ -18,14 +18,27 @@ public class HelloWorld {
         int x, y;
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello world");
+       
         // TODO code application logic here
-    
-      
+        
         System.out.print("Inserer une valeur x ");
         x = sc.nextInt();
+         int x = sc.nextInt(); 
       
              System.out.print("Inserer une valeur y ");
-        y = sc.nextInt();      
+        y = sc.nextInt();   
+         int y = sc.nextInt();
+        
+        System.out.print("x:" +x + "y:" +y );
+        
+        int z=0;
+        
+       z=x
+       x=y
+       y=z
+        
+        System.out.print("x:" +x + "y:" +y );
+        
     }
     
 }
