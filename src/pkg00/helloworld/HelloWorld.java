@@ -15,18 +15,20 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         
+        
+          /* 4) permutations de valeurs 
         int x, y;
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello world");
        
-        // TODO code application logic here permutationsde valeurs
+         
         
         System.out.print("Inserer une valeur x ");
         x = sc.nextInt();
         
       
              System.out.print("Inserer une valeur y ");
-        y = sc.nextInt();   
+         
         y = sc.nextInt();
         
         System.out.print("x:" +x + "y:" +y );
@@ -38,6 +40,21 @@ public class HelloWorld {
        y=z;
         
         System.out.print("x:" +x + "y:" +y );
+        
+       
+    */
+         
+    Scanner sc = new Scanner(System.in);
+
+          System.out.print("a:");
+          float a = sc.nextFloat(); 
+          
+          System.out.print("b:");
+          float b = sc.nextFloat();
+          
+          float resultat=(a+b)*2;
+                  
+           System.out.print("Resultat" + resultat);
         
     }
     
