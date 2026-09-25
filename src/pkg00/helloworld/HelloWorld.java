@@ -19,7 +19,7 @@ public class HelloWorld {
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello world");
        
-        // TODO code application logic here
+        // TODO code application logic here permutation de valeurs
         
         System.out.print("Inserer une valeur x ");
         x = sc.nextInt();
